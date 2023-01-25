@@ -1,0 +1,15 @@
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\bin\Debug\net7.0\projetoxadrez.exe
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\bin\Debug\net7.0\projetoxadrez.deps.json
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\bin\Debug\net7.0\projetoxadrez.runtimeconfig.json
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\bin\Debug\net7.0\projetoxadrez.dll
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\bin\Debug\net7.0\projetoxadrez.pdb
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.csproj.AssemblyReference.cache
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.AssemblyInfoInputs.cache
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.AssemblyInfo.cs
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.dll
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\refint\projetoxadrez.dll
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.pdb
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\projetoxadrez.genruntimeconfig.cache
+C:\Users\mauri\Documents\SharpCodders\c# no vscode\projetoxadrez\obj\Debug\net7.0\ref\projetoxadrez.dll
