@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using tabuleirojogo;
+using user;
 using System.Text.Json;
-
 
 namespace xadrezjogo
 {
@@ -96,14 +96,22 @@ namespace xadrezjogo
             return false;
         }
 
-        //falta implementar
-        static void AtualizarUsuario(List<Usuario>usuarios,string fileName)
+        
+        public void AtualizarJson()
         {
-            
-            string json = File.ReadAllText(fileName);
-            
-            
+            foreach (Usuario u in Usuarios)
+                {
+                    if (u == UsuarioLogado)
+                    { 
+                        u.NumeroVitorias();                          
+                    }
+                }
+            var options = new JsonSerializerOptions { WriteIndented = true };
+            string jsonString = JsonSerializer.Serialize(Usuarios, options);
+            File.WriteAllText(fileName, jsonString);
         }
+
+
 
         public Pecas ExecutarMovimento(Posicao origem, Posicao destino)
         {
@@ -305,16 +313,9 @@ namespace xadrezjogo
             
             //arrumar aqui
             if (TesteXequeMate(Adversario(jogadorAtual)))
-            {
-                // foreach (Usuario u in Usuarios)
-                // {
-                //     if (u == UsuarioLogado)
-                //     {
-                //         u.NumeroVitorias(); 
-                //         Console.WriteLine("passou aqui");                      
-                //     }
-                // }
-
+            {   
+                AtualizarJson();
+                
                 terminada = true;
             }
             else
@@ -324,18 +325,7 @@ namespace xadrezjogo
             }
 
             
-            
-
-
-
-
-
-
-
-
-
-            
-
+    
             // #jogadaespecial en passant
             if (p is Peao && (destino.Linha == origem.Linha - 2 || destino.Linha == origem.Linha + 2))
             {
