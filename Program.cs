@@ -9,6 +9,7 @@ namespace projetoxadrez
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             
@@ -64,5 +65,9 @@ namespace projetoxadrez
                 Console.ReadLine();
             }
         }
+
+
+
+
     }
 }
