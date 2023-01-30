@@ -1,6 +1,7 @@
 using System;
 using tabuleirojogo;
 using xadrezjogo;
+using user;
 using System.Collections.Generic;
 using System.Text.Json;
 
@@ -32,9 +33,6 @@ namespace projetoxadrez
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("XEQUEMATE!");
                 Console.ForegroundColor = aux;
-
-                partida.UsuarioLogado.NumeroVitorias();
-
 
 
                 Console.WriteLine((partida.UsuarioLogado.ContadorVitorias));
