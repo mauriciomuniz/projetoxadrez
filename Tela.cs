@@ -205,7 +205,7 @@ namespace projetoxadrez
                         break;
                     case 3:
                         Console.WriteLine("Ranking dos usuários: ");
-                        Console.WriteLine("Ainda não implementado");
+                        TelaOrdenados(partida);
                         Console.ReadKey();
                         break;
                     
@@ -267,6 +267,18 @@ namespace projetoxadrez
             {
                 Console.WriteLine($"Usuário: {u.Name} - Partidas ganhas: {u.ContadorVitorias}");
                 Console.WriteLine();
+            }
+        }
+
+        public static void TelaOrdenados(PartidaXadrez partida)
+        {
+            int i=1;
+            List<Usuario> UsuariosOrdenados = partida.Usuarios.OrderByDescending(u=>u.ContadorVitorias).ToList();
+            // Console.WriteLine(String.Join(Environment.NewLine,UsuariosOrdenados));
+            foreach(Usuario u in UsuariosOrdenados)
+            {
+                Console.WriteLine($"{i} - {u.Name} - Partidas ganhas: {u.ContadorVitorias}");
+                i=i+1;
             }
         }
 
